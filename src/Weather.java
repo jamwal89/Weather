@@ -13,6 +13,9 @@ public class Weather {
 	            System.out.println("Wear your jacket!");
 	        else if (answer .equals("snow" ))
 	            System.out.println("Wear a coat and take a shovel!");
+	        else if (answer .equals("stormy"))
+	        	System.out.println("Stay Inside");
+	        
 	        else
 	            System.out.println("Enjoy your day!");
 	     }
